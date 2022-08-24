@@ -1,11 +1,40 @@
-body{}
+body{
+    display:flex;
+    flex-direction: column;
+       
+}
 
-.header{}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-.info{}
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+}
+.logo{
+    display:flex;
+}
 
-.quote{}
+.info{
+    display: flex;
+    
+}
 
-.calltoaction{}
+.quote{
+    display: flex;
+    
+}
 
-.footer{}
+.calltoaction{
+    display: flex;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
