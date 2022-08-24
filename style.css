@@ -1,6 +1,8 @@
 body{
     display:flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
        
 }
 
@@ -8,8 +10,19 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 72px;
+    padding: 16px;
 
 }
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    
+}
+
 .content{
     display: flex;
     flex-direction:column;
@@ -17,24 +30,35 @@ body{
 }
 .logo{
     display:flex;
+    justify-content: center;
 }
 
 .info{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote{
     display: flex;
+    justify-content: center;
     
 }
 
 .calltoaction{
     display: flex;
+    justify-content: center;
     
 }
 
 .footer{
     display: flex;
     justify-content: center;
+    height: 72px;
+}
+
+/* colors */
+.header, .hero, .footer{
+    background-color: #1f2937;
+    color: #f9faf8;
 }
