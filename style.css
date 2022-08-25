@@ -44,15 +44,34 @@ body{
     flex: 1;
     min-height: 400px;
 }
+
 .infocards{
     flex-direction: row;
 }
 .card{
     max-width: 220px;
 }
+
 .infocards, .quote, .calltoaction, .footer{
     display: flex;
     justify-content: center;
+}
+
+.quote{
+    flex-direction: column;
+    min-height: 400px;
+    align-items: center;
+}
+.quotetext{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    max-width: 600px;
+    padding: 32px;
+}
+.quotesource{
+    max-width: 600px;
+    align-self: flex-end;
 }
 
 .footer{
@@ -63,4 +82,10 @@ body{
 .header, .hero, .footer{
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.quote{
+    background-color: #e5e7eb;   
+    color: black;
+        
 }
