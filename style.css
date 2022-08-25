@@ -6,6 +6,11 @@ body{
        
 }
 
+.infocards, .quote, .calltoaction, .footer{
+    display: flex;
+    justify-content: center;
+}
+
 .header{
     display: flex;
     flex-direction: row;
@@ -52,10 +57,6 @@ body{
     max-width: 220px;
 }
 
-.infocards, .quote, .calltoaction, .footer{
-    display: flex;
-    justify-content: center;
-}
 
 .quote{
     flex-direction: column;
@@ -74,6 +75,10 @@ body{
     align-self: flex-end;
 }
 
+.calltoaction{
+    min-height: 300px;
+    align-items: center;
+}
 .footer{
     height: 72px;
 }
