@@ -45,28 +45,17 @@ body{
     min-height: 400px;
 }
 .infocards{
-    display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 .card{
     max-width: 220px;
 }
-.quote{
+.infocards, .quote, .calltoaction, .footer{
     display: flex;
     justify-content: center;
-    
-}
-
-.calltoaction{
-    display: flex;
-    justify-content: center;
-    
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
     height: 72px;
 }
 
