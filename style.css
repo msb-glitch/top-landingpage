@@ -26,10 +26,10 @@ body{
     justify-content: space-between;
     height: 72px;
     padding: 16px;
+    
 
 }
 .header a{
-    color: orangered;
     font-weight: 400;
     font-variant: small-caps;
 }
@@ -109,8 +109,11 @@ body{
 
 /* colors */
 .header, .hero, .footer{
-    background-color: #1f2937;
-    color: #f9faf8;
+    background-color: #E9C46A;
+    color: #264653;
+}
+.header a{
+    color: orangered
 }
 
 .quote{
