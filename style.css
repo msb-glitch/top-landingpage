@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     display:flex;
     flex-direction: column;
@@ -55,27 +58,33 @@ body{
 }
 .card{
     max-width: 220px;
+    margin: 20px;
 }
 
 .card img {
     border-radius: 10%;
+    border: 4px solid blue;
 }
 
 .quote{
-    flex-direction: column;
-    min-height: 400px;
+    min-height: 500px;
+}
+.quotecontainer{
+    display: flex;
+    flex-direction:column;
     align-items: center;
+    max-width: 800px;
 }
 .quotetext{
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    max-width: 600px;
-    padding: 32px;
+    padding: 60px 0px;
 }
 .quotesource{
-    max-width: 600px;
     align-self: flex-end;
+    font-weight: 700;
+    
 }
 
 .calltoaction{
