@@ -28,6 +28,11 @@ body{
     padding: 16px;
 
 }
+.header a{
+    color: orangered;
+    font-weight: 400;
+    font-variant: small-caps;
+}
 .header ul{
     list-style: none;
     display: flex;
