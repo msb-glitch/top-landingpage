@@ -29,6 +29,9 @@ body{
     
 
 }
+.header button{
+    padding: 16px 24px;
+}
 .header a{
     font-weight: 400;
     font-variant: small-caps;
