@@ -29,11 +29,13 @@ body{
     
 
 }
-.header button{
-    padding: 16px 24px;
+.logo{
+    font-size: 20px;
 }
+
 .header a{
-    font-weight: 400;
+    font-weight: 700;
+    letter-spacing: 2px;
     font-variant: small-caps;
 }
 .header ul{
@@ -55,6 +57,17 @@ body{
     justify-content: space-around;
     padding: 16px;
 }
+
+.hero button{
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-size: 32px;
+    font-variant: small-caps;
+    font-weight: 600;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
 .herosignup{
     width: 600px;
 }
@@ -103,8 +116,33 @@ body{
 }
 
 .calltoaction{
+    display: flex;
+    justify-content: center;
     min-height: 300px;
     align-items: center;
+    justify-content: space-around;
+}
+.calltoactioncontainer{
+    display: flex;
+    min-width: 600px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 20px 40px;
+}
+.calltoactiontext{
+   
+}
+.calltoactiontext h2{
+    margin-bottom: -10px;
+}
+.calltoactionbutton button{
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
 }
 .footer{
     height: 72px;
@@ -115,7 +153,12 @@ body{
     background-color: #E9C46A;
     color: #264653;
 }
-.header a{
+.hero button, .calltoactioncontainer{
+    background-color: #2A9D8F;
+    color: white;
+    border: 0;
+}
+.header a, .logo{
     color: orangered
 }
 .card img{
@@ -125,4 +168,10 @@ body{
     background-color: #e5e7eb;   
     color: black;
         
+}
+.calltoactionbutton button{
+    background: none;
+    border-color: white;
+    color: white;
+    
 }
